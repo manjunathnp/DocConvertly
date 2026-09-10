@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/manjunathnp/DocConvertly/releases/download/v1.0.0/docconvertly-logo.png" alt="DocConvertly — convert and edit documents in your browser" width="220">
+</p>
+
 # DocConvertly v1.0.0
 
 Convert and edit documents privately in your browser.
@@ -5,6 +9,8 @@ Convert and edit documents privately in your browser.
 **12 document tools** · **No account** · **Files stay on your device** · **One HTML file**
 
 DocConvertly is a collection of document conversion and PDF editing tools that runs locally in a browser tab. Documents are processed on the user’s device and returned as downloadable files.
+
+![DocConvertly overview showing local document processing in the browser](https://github.com/manjunathnp/DocConvertly/releases/download/v1.0.0/docconvertly-overview.png)
 
 ## Download and run
 
@@ -27,6 +33,8 @@ The logo, favicon, styles, and application code are embedded in the HTML. No ass
 - Keyboard-accessible controls and reduced-motion support
 
 ## Included tools
+
+![DocConvertly’s twelve document conversion and PDF editing tools](https://github.com/manjunathnp/DocConvertly/releases/download/v1.0.0/docconvertly-tools.png)
 
 | Tool | What it does |
 | --- | --- |
@@ -99,6 +107,8 @@ The repository contains exactly two files. A local `.gitignore` excludes all oth
 | --- | --- |
 | `docconvertly-v1.0.0.html` | Single-file application with embedded logo and favicon |
 | `README.md` | Download instructions and project documentation |
+
+README images are hosted as GitHub release attachments so they display on GitHub without adding image files to the repository. The application’s embedded branding remains self-contained.
 
 ## Release v1.0.0
 
