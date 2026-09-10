@@ -140,8 +140,6 @@ section{padding:74px 0}
 .node.center{border-color:color-mix(in srgb,var(--signal) 45%,transparent);background:var(--signal-soft);color:var(--signal)}
 .node .mono{display:block;margin-top:7px;color:var(--muted)}
 .node.center .mono{color:var(--signal)}
-.route-off{display:flex;align-items:center;gap:10px;padding:11px 13px;border-radius:10px;background:var(--line-2);color:var(--muted);font-size:.85rem}
-.route-off s{color:var(--faint)}
 .route-log{margin-top:18px;border-top:1px dashed var(--line);padding-top:14px}
 .log-line{font-family:var(--mono);font-size:.73rem;color:var(--muted);padding:3px 0;display:flex;gap:9px;align-items:flex-start}
 .log-line b{color:var(--signal);font-weight:500;flex:none}
@@ -567,7 +565,7 @@ const LIB = { ready: false };
   if (window.PDFLib && window.pdfjsLib && window.JSZip && window.mammoth) {
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
     LIB.ready = true;
-    $('#engineText').textContent = 'engines ready, this tab';
+    $('#engineText').textContent = 'Ready · Files stay on your Device';
     document.dispatchEvent(new Event('libs-ready'));
   } else if (n < 140) { setTimeout(() => waitLibs(n + 1), 150); }
   else {
@@ -865,7 +863,6 @@ function renderHome(){
         '<div class="arrow" style="color:var(--faint);display:grid;place-items:center">' + ico('arrow') + '</div>' +
         '<div class="node center">' + ico('zap','icon-lg') + '<span class="mono">this tab</span></div>' +
       '</div>' +
-      '<div class="route-off">' + ico('lock','icon-sm') + '<span>Not involved: <s>upload endpoint</s>, <s>object storage</s>, <s>account</s>, <s>analytics</s></span></div>' +
       '<div class="route-log" id="heroLog"></div>' +
     '</div>' +
   '</div></section>' +

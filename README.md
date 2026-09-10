@@ -93,7 +93,7 @@ QA scripts and screenshots are kept locally and are not included in the reposito
 
 ## Project files
 
-The repository contains exactly two files:
+The repository contains exactly two files. A local `.gitignore` excludes all other project files, including itself, source images, QA artifacts, and editor settings:
 
 | Path | Description |
 | --- | --- |
