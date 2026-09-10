@@ -14,7 +14,7 @@ DocConvertly is a collection of document conversion and PDF editing tools that r
 
 ## Download and run
 
-1. Download [docconvertly-v1.0.0.html](https://github.com/manjunathnp/DocConvertly/releases/download/v1.0.0/docconvertly-v1.0.0.html) from the [v1.0.0 release](https://github.com/manjunathnp/DocConvertly/releases/tag/v1.0.0).
+1. Open [docconvertly-v1.0.0.html in the repository](https://github.com/manjunathnp/DocConvertly/blob/main/docconvertly-v1.0.0.html) and click **Download raw file** to save the latest committed HTML.
 2. Open the downloaded HTML file in your browser.
 3. Choose a tool, select your files, and download the results.
 
